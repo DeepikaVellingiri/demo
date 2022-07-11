@@ -3,6 +3,8 @@ function person(name):
 {
  console.log('Name is:'+name);
 }
+person("Ram")
+
 
 let x=10;
 let y=20;
