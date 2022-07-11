@@ -28,9 +28,22 @@ console.log("Good afternoon");
 }
 else if(hour>15 && hour<=18)
 {
-console.log("Good evening")
+console.log("Good evening");
 }
 else
 {
-console.log("Good night")
+console.log("Good night");
+}
+
+
+for(let i=0;i<5;i++)
+{
+ console.write("Hello",i);
+}
+
+
+for(let i=1;i<=5;i++)
+{ 
+if(i%2 != 0)
+console.write(i);
 }
